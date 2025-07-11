@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=devise-width, initial-scale=1.0">
+    <title>SIGNUP FORM</title>
+</head>
+
+<body>
+   <center> <h1>SIGNUP FORM</h1></center>
+    <form action="singup" method="post">
+        <table align="center" hight="200" width="200">
+
+            <tr>
+                <td>first name:-</td>
+                <td><input type="text" name="fistname"> </td>
+            </tr>
+
+            <tr>
+                <td> Email:-</td>
+                <td><input type="email" name="email"> </td>
+            </tr>
+
+            <tr>
+                <td>password:-</td>
+                <td><input type="password" name="password"> </td>
+            </tr>
+
+            <tr>
+                <td>GENDER:-</td>
+                <td>
+                    male<input type="radio" name="gender" value="male">
+                    female<input type="radio" name="gender" value="female"> 
+                </td>
+            </tr>
+
+            
+
+            <tr>
+                <td>address:-</td>
+                <td><textarea rows="5"></textarea></td>
+            </tr>
+
+            <tr>
+                <td>city:-</td>
+                <td>
+                    <select name="city">
+                    <option value="-1">----select city----</option>    
+                    <option value="1">Ahemdabad</option>
+                    <option value="2">gandhinager</option>
+                    <option value="3">jamnager</option>
+                        </select>
+
+
+                </td>
+
+                <tr>
+                    <td>HOBBY</td>
+                    <td>
+                        <input type="checkbox" name="cricket">cricket<br>
+                        <input type="checkbox" name="football">football<br>
+                        <input type="checkbox" name="race">race<br>
+                        <input type="checkbox" name="BB">BB<br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Profile Pic:</td>
+                    <td><input type="file" name="profilepic" accept="image/*" multiple/></td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="submit" value="Signup"/>
+                        <input type="button" value="Back"/>
+                    </td>
+                </tr>
+            </tr>
+
+            
+
+        </table>
+
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navigation Bar</title>
+  <style>
+    body {
+      justify-content: center;
+      align-items: center;
+      height: 80px;
+      width: 1300px;
+      font-family: Arial, sans-serif;
+    }
+
+    .navbar {
+      background-color: rgba(207, 207, 207, 0.726);
+      padding: 15px 25px;
+      border-radius: 40px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+      gap: 40px;
+    }
+
+    .navbar a {
+      text-decoration: none;
+      color: gray;
+      padding: 10px 20px;
+      border-radius: 25px;
+      transition: all 0.3s ease;
+      font-weight: 200;
+    }
+
+    .navbar a.active {
+      background-color: lightskyblue; /* red-pink for active */
+      color: white;
+    }
+
+    .navbar a:hover {
+      background-color: lightskyblue;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="navbar">
+    <a href="football.html" target="_blank">HOME</a>
+    <a href="bhavya.html" target="_blank">ABOUT US</a>
+    <a href="football3.html" target="_blank">CONTACT US</a>
+  </div>
+
+</body>
+</html>
